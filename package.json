@@ -21,7 +21,7 @@
     "preview_gif": "node utils/preview_gif.js",
     "generate_metadata": "node utils/generate_metadata.js"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
+  "author": "Daniel Eugene Botha (HashLips) and Bradley Sheehan",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.8.0",

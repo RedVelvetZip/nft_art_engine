@@ -5,12 +5,12 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Shroomies";
+const description = "A collection of mushrooms, just for fun!";
+const baseUri = "ipfs://QmcBudnGgVbbfDQDf3idechwUB8rkT8CnW3QHw5KK8bfxv";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "MUSH",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -24,15 +24,15 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 500,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Ground" },
+      { name: "Stem" },
+      { name: "Cap" },
+      { name: "Spots" },
+      { name: "Neighbors" },
+      { name: "Class" },
     ],
   },
 ];
