@@ -1,0 +1,24 @@
+{
+    "name": "? #var_name",
+    "description": "???",
+    "image": "ipfs://{IPFS link to image folder goes here}/var_image.png",
+    "animation_url": "ipfs://{IPFS link to animation folder here}/var_animation.mp4",
+    "attributes": [
+      {
+        "trait_type": "Trait1",
+        "value": "trait1example"
+      },
+      {
+        "trait_type": "Trait2",
+        "value": "trait2example"
+      },
+      {
+        "trait_type": "Trait3",
+        "value": "trait3example"
+      },
+      {
+        "trait_type": "Trait4",
+        "value": "trait4example"
+      }
+    ]
+  }

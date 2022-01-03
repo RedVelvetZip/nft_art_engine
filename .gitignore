@@ -140,3 +140,8 @@ dist
 # OSX
 
 .DS_Store
+
+# Real metadata
+
+.metadata_scripts/project_metadata
+metadata_scripts/project_metadata/
